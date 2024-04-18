@@ -1,0 +1,17 @@
+создание логин пароль 1
+
+Create login user1 with password = '123'
+use database
+
+создание пользовател 2 
+Create user user1
+use database
+
+создание группы
+Create role groupi
+
+добавлнеие пользователей
+Alter role groupi add member user1
+
+добавление прав
+Grant select on table1 to group
